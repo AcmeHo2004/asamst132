@@ -475,6 +475,13 @@ section.sect {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--charcoal);
+  padding: 6px 8px;
+  background: rgba(245, 242, 234, 0.9);
+  border: 1px solid rgba(201, 194, 176, 0.95);
+  max-width: calc(100% - 28px);
+  line-height: 1.35;
+  display: inline-block;
+  z-index: 2;
 }
 .figure.tall { aspect-ratio: 3/4; }
 .figure.wide { aspect-ratio: 16/9; }
@@ -571,7 +578,7 @@ section.sect {
   object-fit: cover;
   object-position: center top;
   transform: translateX(-4%) scale(1.04);
-  opacity: 0.24;
+  opacity: 0.35;
   filter: blur(6px) saturate(0.72);
 }
 
@@ -699,7 +706,7 @@ section.sect {
   .conclusion-bg img {
     width: 170%;
     transform: translateX(-24%) scale(1.04);
-    opacity: 0.22;
+    opacity: 0.3;
     filter: blur(5px) saturate(0.72);
   }
 }
