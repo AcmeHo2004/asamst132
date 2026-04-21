@@ -3,7 +3,7 @@
 function ChinaMap() {
   return (
     <img
-      src="uploads/xinjiang-map-upload.png"
+      src="uploads/xinjiang-map-upload.png?v=20260421-2"
       alt="Map of Xinjiang and surrounding region highlighting strategic borders, Muslim population concentration, and key cities."
       style={{ width: '100%', height: '100%', display: 'block', objectFit: 'cover' }}
     />
