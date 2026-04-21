@@ -413,8 +413,14 @@ function Scope() {
 
 function Conclusion() {
   return (
-    <section className="sect" id="conclusion">
-      <div className="container">
+    <section className="sect conclusion-atmosphere" id="conclusion">
+      <div className="conclusion-bg" aria-hidden="true">
+        <img
+          src="uploads/conclusion-control-atmosphere.png"
+          alt=""
+        />
+      </div>
+      <div className="container conclusion-atmosphere-content">
         <SectionHead
           num="08"
           label="Conclusion"
