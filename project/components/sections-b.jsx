@@ -29,6 +29,16 @@ function MediaCulture() {
               visible Islamic presence are reduced, replaced, or reclassified
               under the language of order, modernization, and national unity.
             </p>
+            <Caption
+              className="media-mosque-caption"
+              source="Upper image: earlier mosque architecture · Lower image: renovated mosque under state guidelines"
+            >
+              Contrasting mosque architecture in China. The upper image shows
+              earlier Islamic-style design, while the lower image reflects
+              more recent renovations in which domes are reduced and Chinese
+              architectural forms and state symbols are introduced into the
+              space.
+            </Caption>
           </div>
           <div className="span-6">
             <div className="figure mosque-photo">
@@ -37,13 +47,6 @@ function MediaCulture() {
                 alt="Comparison of earlier mosque architecture and a renovated mosque under state guidelines."
               />
             </div>
-            <Caption source="Upper image: earlier mosque architecture · Lower image: renovated mosque under state guidelines">
-              Contrasting mosque architecture in China. The upper image shows
-              earlier Islamic-style design, while the lower image reflects
-              more recent renovations in which domes are reduced and Chinese
-              architectural forms and state symbols are introduced into the
-              space.
-            </Caption>
           </div>
         </div>
 
