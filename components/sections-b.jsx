@@ -112,7 +112,7 @@ function MediaCulture() {
         </div>
 
         <div className="grid-12" style={{marginTop: 64}}>
-          <div className="span-12">
+          <div className="span-7">
             <Eyebrow>Continued remaking</Eyebrow>
             <h3 style={{marginTop: 14, marginBottom: 20}}>Public space is being remade.</h3>
             <p style={{maxWidth: '72ch'}}>
@@ -136,6 +136,20 @@ function MediaCulture() {
               differently, regulated differently, and made to appear
               differently in everyday space.
             </p>
+          </div>
+          <div className="span-5">
+            <div className="figure religion-change-photo">
+              <img
+                src="uploads/religion-change.jpg"
+                alt="Public signage in Mandarin and Uyghur paired with ideological messaging in Xinjiang."
+              />
+            </div>
+            <Caption className="religion-change-caption">
+              State messaging and bilingual signage in public space. Mandarin
+              and Uyghur text appear alongside ideological slogans,
+              illustrating how cultural and religious expression is
+              restructured within everyday environments.
+            </Caption>
           </div>
         </div>
 
@@ -170,9 +184,6 @@ function MediaCulture() {
           </div>
         </div>
 
-        <PullQuote cite="Xinjiang Party Secretary Ma Xingrui, remarks reported by Reuters, 2024">
-          The Sinicization of Islam is inevitable.
-        </PullQuote>
       </div>
     </section>
   );

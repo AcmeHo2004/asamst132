@@ -194,26 +194,40 @@ function CountryProfile() {
             <div className="label" style={{color: 'var(--muted)'}}>
               Immigration · Refugee context
             </div>
+            <div className="figure scope-trade-photo">
+              <img
+                src="uploads/xinjiang-trade-networks.png"
+                alt="Map of Xinjiang showing historical trade routes, cultural exchange, and Islamic networks converging around Urumqi and Kashgar."
+              />
+            </div>
+            <Caption className="scope-trade-caption">
+              Xinjiang functioned historically as a junction of overlapping
+              trade, cultural, and religious networks rather than a fixed
+              territorial boundary.
+            </Caption>
           </div>
           <div className="span-8">
-            <p>
-              Islamophobia in China does not primarily operate through
-              immigration or refugee policy, unlike many Western contexts.
-              Large-scale refugee intake systems comparable to those in Europe
-              or North America do not exist, and public debate over Muslim
-              immigration is not a central feature of domestic politics. As a
-              result, Islamophobia is not expressed through border control or
-              asylum policy in the same way.
-            </p>
-            <p>
-              Attention shifts inward. Governance in Xinjiang focuses on
-              populations already within the state, particularly Uyghur and
-              other Muslim minority communities. The site of Islamophobia
-              moves away from entry and exclusion at borders and toward
-              classification, control, and transformation within national
-              boundaries. The distinction clarifies how Islamophobia can take
-              distinct institutional forms depending on political context.
-            </p>
+            <div className="scope-note-copy">
+              <p>
+                Islamophobia in China does not primarily operate through
+                immigration or refugee policy, unlike many Western contexts.
+                Large-scale refugee intake systems comparable to those in
+                Europe or North America do not exist, and public debate over
+                Muslim immigration is not a central feature of domestic
+                politics. As a result, Islamophobia is not expressed through
+                border control or asylum policy in the same way.
+              </p>
+              <p>
+                Attention shifts inward. Governance in Xinjiang focuses on
+                populations already within the state, particularly Uyghur and
+                other Muslim minority communities. The site of Islamophobia
+                moves away from entry and exclusion at borders and toward
+                classification, control, and transformation within national
+                boundaries. The distinction clarifies how Islamophobia can
+                take distinct institutional forms depending on political
+                context.
+              </p>
+            </div>
           </div>
         </div>
       </div>
