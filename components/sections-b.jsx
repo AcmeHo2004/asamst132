@@ -42,6 +42,7 @@ function MediaCulture() {
           </div>
           <div className="span-6">
             <div className="figure mosque-photo">
+              <div className="fig-note">FIG. 09 · CONTRASTING MOSQUE ARCHITECTURE</div>
               <img
                 src="uploads/mosques.webp"
                 alt="Comparison of earlier mosque architecture and a renovated mosque under state guidelines."
@@ -52,7 +53,7 @@ function MediaCulture() {
 
         {/* State narrative vs investigative reality */}
         <div className="label" style={{marginBottom: 20}}>
-          FIG. 05 &nbsp;·&nbsp; STATE NARRATIVE vs. INVESTIGATIVE RECORD
+          FIG. 10 &nbsp;·&nbsp; STATE NARRATIVE vs. INVESTIGATIVE RECORD
         </div>
 
         <div style={{display:'grid', gap: 0}}>
@@ -139,6 +140,7 @@ function MediaCulture() {
           </div>
           <div className="span-5">
             <div className="figure religion-change-photo">
+              <div className="fig-note">FIG. 11 · STATE MESSAGING & BILINGUAL SIGNAGE</div>
               <img
                 src="uploads/religion-change.jpg"
                 alt="Public signage in Mandarin and Uyghur paired with ideological messaging in Xinjiang."

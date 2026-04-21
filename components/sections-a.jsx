@@ -111,7 +111,7 @@ function CountryProfile() {
         <div className="grid-12" style={{marginBottom: 40}}>
           <div className="span-7">
             <Figure
-              note="01 · TERRITORIAL CONTEXT"
+              note="FIG. 01 · TERRITORIAL CONTEXT"
               label="XINJIANG UYGHUR AUTONOMOUS REGION, PRC"
               source="SIMPLIFIED · NOT TO SCALE"
               aspect="wide"
@@ -152,7 +152,7 @@ function CountryProfile() {
         {/* Historical timeline */}
         <div style={{marginTop: 72}}>
           <div className="label" style={{marginBottom: 24}}>
-            FIG. 04 &nbsp;·&nbsp; CHRONOLOGY OF STATE POLICY IN XINJIANG
+            FIG. 02 &nbsp;·&nbsp; CHRONOLOGY OF STATE POLICY IN XINJIANG
           </div>
           <div className="timeline">
             <div className="timeline-rule" />
@@ -195,6 +195,7 @@ function CountryProfile() {
               Immigration · Refugee context
             </div>
             <div className="figure scope-trade-photo">
+              <div className="fig-note">FIG. 03 · TRADE, CULTURAL & RELIGIOUS NETWORKS</div>
               <img
                 src="uploads/xinjiang-trade-networks.png"
                 alt="Map of Xinjiang showing historical trade routes, cultural exchange, and Islamic networks converging around Urumqi and Kashgar."
@@ -297,6 +298,7 @@ function PoliticalFraming() {
         </PullQuote>
 
         <div className="figure policy-photo">
+          <div className="fig-note">FIG. 04 · POLICY COORDINATION MEETING</div>
           <img
             src="uploads/maxingrui-xinjiang.webp"
             alt="Officials seated around a conference table during a Xinjiang policy meeting."
@@ -450,6 +452,7 @@ function Surveillance() {
           </div>
           <div className="span-5">
             <div className="figure surveillance-photo">
+              <div className="fig-note">FIG. 07 · SURVEILLANCE INFRASTRUCTURE</div>
               <img
                 src="uploads/checkpoint-xinjiang.webp"
                 alt="A police checkpoint in Xinjiang with vehicles passing through."
@@ -545,6 +548,7 @@ function Surveillance() {
           </div>
           <div className="span-5">
             <div className="figure economy-photo">
+              <div className="fig-note">FIG. 08 · COTTON PRODUCTION & LABOR TRANSFERS</div>
               <img
                 src="uploads/cotton-xinjiang-page-6.webp"
                 alt="Cotton harvesting in a field in Xinjiang."

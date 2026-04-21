@@ -21,7 +21,7 @@ function MechanismDiagram() {
   ];
   return (
     <svg viewBox="0 0 1200 380" style={{width: '100%', height: 'auto', display: 'block'}}>
-      <text x="20" y="28" fontFamily="JetBrains Mono, monospace" fontSize="10" fill="#6B675E" letterSpacing="2">FIG. 02  ·  OPERATIONAL MECHANISM OF STATE-LED ISLAMOPHOBIA</text>
+      <text x="20" y="28" fontFamily="JetBrains Mono, monospace" fontSize="10" fill="#6B675E" letterSpacing="2">FIG. 05  ·  OPERATIONAL MECHANISM OF STATE-LED ISLAMOPHOBIA</text>
       <line x1="20" y1="50" x2="1180" y2="50" stroke="#0A0A0A" strokeWidth="1.5" />
 
       {/* Top labels */}
@@ -76,7 +76,7 @@ function SurveillanceDiagram() {
   // Three-tier: Data → Flagging → Enforcement
   return (
     <svg viewBox="0 0 1200 520" style={{width: '100%', height: 'auto', display: 'block'}}>
-      <text x="20" y="28" fontFamily="JetBrains Mono, monospace" fontSize="10" fill="#6B675E" letterSpacing="2">FIG. 03  ·  SURVEILLANCE PIPELINE  ·  DATA, CLASSIFICATION, ENFORCEMENT</text>
+      <text x="20" y="28" fontFamily="JetBrains Mono, monospace" fontSize="10" fill="#6B675E" letterSpacing="2">FIG. 06  ·  SURVEILLANCE PIPELINE  ·  DATA, CLASSIFICATION, ENFORCEMENT</text>
       <line x1="20" y1="50" x2="1180" y2="50" stroke="#0A0A0A" strokeWidth="1.5" />
 
       {/* Column headers */}
