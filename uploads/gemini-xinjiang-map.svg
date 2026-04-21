@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1365 768" role="img" aria-labelledby="title desc">
+  <title id="title">Strategic map of Xinjiang in the People's Republic of China</title>
+  <desc id="desc">A stylized geopolitical map highlighting Xinjiang, neighboring states, major cities, Muslim population concentration, and strategic border dimensions.</desc>
+
+  <defs>
+    <linearGradient id="paper" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f5efe3" />
+      <stop offset="100%" stop-color="#eee6d8" />
+    </linearGradient>
+
+    <pattern id="diagonal" patternUnits="userSpaceOnUse" width="32" height="32" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="32" stroke="#ddd1bf" stroke-width="2" stroke-opacity="0.45" />
+    </pattern>
+
+    <pattern id="grid" patternUnits="userSpaceOnUse" width="48" height="48">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#d9cebd" stroke-width="1.1" />
+    </pattern>
+
+    <pattern id="prc-dots" patternUnits="userSpaceOnUse" width="18" height="18">
+      <circle cx="3" cy="3" r="1.4" fill="#bfb5a3" fill-opacity="0.65" />
+    </pattern>
+
+    <pattern id="xinjiang-hatch" patternUnits="userSpaceOnUse" width="16" height="16" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#9b3833" stroke-width="2" stroke-opacity="0.55" />
+    </pattern>
+
+    <filter id="green-blur">
+      <feGaussianBlur stdDeviation="18" />
+    </filter>
+
+    <clipPath id="xinjiang-clip">
+      <path d="M194 362 L236 334 L258 292 L312 270 L356 281 L392 260 L438 267 L472 246 L523 255 L552 286 L586 279 L626 303 L654 337 L689 355 L688 412 L671 449 L645 465 L642 512 L607 536 L593 579 L530 595 L472 565 L408 569 L353 550 L302 548 L268 529 L238 490 L213 433 Z" />
+    </clipPath>
+
+    <clipPath id="muslim-core-clip">
+      <path d="M245 404 C282 364 340 340 414 336 C483 333 537 349 570 389 L568 432 C549 470 525 507 494 528 C452 540 407 540 351 535 C305 524 271 500 247 459 Z" />
+    </clipPath>
+  </defs>
+
+  <rect width="1365" height="768" fill="url(#paper)" />
+  <rect width="1365" height="768" fill="url(#diagonal)" />
+  <rect width="1365" height="768" fill="url(#grid)" opacity="0.92" />
+
+  <path d="M-12 116 L37 152 L67 286 L122 274 L176 231 L227 237 L264 257 L311 250 L359 261 L397 247 L444 251 L511 238 L592 253 L677 236 L734 254 L803 231 L867 245 L936 235 L1002 248 L1074 232 L1135 244 L1186 233 L1246 241 L1312 224 L1368 243" fill="none" stroke="#1e1916" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M1230 0 L1248 39 L1313 44 L1362 75 L1362 161 L1317 164 L1268 206 L1277 236 L1235 261 L1225 319 L1196 360" fill="none" stroke="#1e1916" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M-10 151 L20 167 L36 225 L64 232 L95 229 L121 269 L150 278 L183 249 L208 247 L232 260" fill="none" stroke="#1e1916" stroke-width="2.4" stroke-dasharray="8 6" stroke-linecap="round" />
+  <path d="M142 300 L183 309 L207 334 L224 357" fill="none" stroke="#1e1916" stroke-width="2.4" stroke-dasharray="8 6" stroke-linecap="round" />
+  <path d="M118 412 L164 401 L198 423 L219 457" fill="none" stroke="#1e1916" stroke-width="2.4" stroke-dasharray="8 6" stroke-linecap="round" />
+  <path d="M226 546 L264 577 L290 623 L336 657" fill="none" stroke="#1e1916" stroke-width="2.4" stroke-dasharray="8 6" stroke-linecap="round" />
+
+  <path d="M222 356 L290 305 L416 289 L520 310 L606 294 L682 314 L758 302 L842 324 L936 349 L1020 381 L1162 439 L1211 510 L1228 600 L1202 679 L1130 721 L1050 744 L954 742 L865 726 L819 694 L767 699 L696 712 L622 707 L559 691 L500 686 L434 656 L378 618 L311 565 L252 502 L222 436 Z" fill="none" stroke="#ba8d8a" stroke-width="18" stroke-linejoin="round" opacity="0.78" />
+  <path d="M222 356 L290 305 L416 289 L520 310 L606 294 L682 314 L758 302 L842 324 L936 349 L1020 381 L1162 439 L1211 510 L1228 600 L1202 679 L1130 721 L1050 744 L954 742 L865 726 L819 694 L767 699 L696 712 L622 707 L559 691 L500 686 L434 656 L378 618 L311 565 L252 502 L222 436 Z" fill="#f4ecde" stroke="#2b211c" stroke-width="4.5" stroke-linejoin="round" />
+  <path d="M222 356 L290 305 L416 289 L520 310 L606 294 L682 314 L758 302 L842 324 L936 349 L1020 381 L1162 439 L1211 510 L1228 600 L1202 679 L1130 721 L1050 744 L954 742 L865 726 L819 694 L767 699 L696 712 L622 707 L559 691 L500 686 L434 656 L378 618 L311 565 L252 502 L222 436 Z" fill="url(#prc-dots)" opacity="0.78" />
+
+  <path d="M194 362 L236 334 L258 292 L312 270 L356 281 L392 260 L438 267 L472 246 L523 255 L552 286 L586 279 L626 303 L654 337 L689 355 L688 412 L671 449 L645 465 L642 512 L607 536 L593 579 L530 595 L472 565 L408 569 L353 550 L302 548 L268 529 L238 490 L213 433 Z" fill="none" stroke="#c78f8c" stroke-width="16" stroke-linejoin="round" opacity="0.88" />
+  <path d="M194 362 L236 334 L258 292 L312 270 L356 281 L392 260 L438 267 L472 246 L523 255 L552 286 L586 279 L626 303 L654 337 L689 355 L688 412 L671 449 L645 465 L642 512 L607 536 L593 579 L530 595 L472 565 L408 569 L353 550 L302 548 L268 529 L238 490 L213 433 Z" fill="#f1f4eb" stroke="#8b211d" stroke-width="4.5" stroke-linejoin="round" />
+  <path d="M194 362 L236 334 L258 292 L312 270 L356 281 L392 260 L438 267 L472 246 L523 255 L552 286 L586 279 L626 303 L654 337 L689 355 L688 412 L671 449 L645 465 L642 512 L607 536 L593 579 L530 595 L472 565 L408 569 L353 550 L302 548 L268 529 L238 490 L213 433 Z" fill="url(#xinjiang-hatch)" opacity="0.72" />
+
+  <g clip-path="url(#xinjiang-clip)" opacity="0.62">
+    <g filter="url(#green-blur)">
+      <ellipse cx="544" cy="357" rx="170" ry="54" fill="#8fb48d" />
+      <ellipse cx="477" cy="400" rx="168" ry="62" fill="#95bf97" fill-opacity="0.88" />
+      <ellipse cx="343" cy="469" rx="136" ry="52" fill="#99bc90" fill-opacity="0.82" />
+      <ellipse cx="603" cy="314" rx="116" ry="44" fill="#c4d8b7" fill-opacity="0.72" />
+    </g>
+  </g>
+
+  <path d="M245 404 C282 364 340 340 414 336 C483 333 537 349 570 389 L568 432 C549 470 525 507 494 528 C452 540 407 540 351 535 C305 524 271 500 247 459 Z" fill="#f6f2e6" stroke="#8b211d" stroke-width="4" stroke-linejoin="round" />
+  <path d="M245 404 C282 364 340 340 414 336 C483 333 537 349 570 389 L568 432 C549 470 525 507 494 528 C452 540 407 540 351 535 C305 524 271 500 247 459 Z" fill="url(#xinjiang-hatch)" opacity="0.82" />
+
+  <g clip-path="url(#muslim-core-clip)" opacity="0.46">
+    <g filter="url(#green-blur)">
+      <ellipse cx="407" cy="427" rx="165" ry="66" fill="#96c091" />
+    </g>
+  </g>
+
+  <path d="M194 362 L218 338 L230 402 L252 452 L311 566 L382 619 L432 657 L498 688" fill="none" stroke="#6d665d" stroke-width="3" stroke-opacity="0.3" />
+
+  <g transform="translate(560 246)">
+    <circle cx="0" cy="0" r="44" fill="#dfe9d5" stroke="#778f73" stroke-width="3" />
+    <path d="M0 0 L0 -44 A44 44 0 0 1 38 -22 Z" fill="#cddbc2" />
+    <path d="M0 0 L38 -22 A44 44 0 1 1 -7 -43 Z" fill="#9fba96" />
+    <path d="M0 0 L-7 -43 A44 44 0 0 1 0 -44 Z" fill="#eef4e8" />
+    <line x1="0" y1="0" x2="0" y2="-44" stroke="#f4efe3" stroke-width="2.5" />
+    <line x1="0" y1="0" x2="38" y2="-22" stroke="#f4efe3" stroke-width="2.5" />
+    <line x1="0" y1="0" x2="-7" y2="-43" stroke="#f4efe3" stroke-width="2.5" />
+  </g>
+
+  <g transform="translate(646 190)">
+    <path d="M18 0 L32 14 L32 52 L6 52 L6 14 Z" fill="#6d8562" stroke="#485848" stroke-width="2" />
+    <path d="M18 6 L41 28 L-5 28 Z" fill="#6d8562" stroke="#485848" stroke-width="2" />
+    <rect x="13" y="30" width="10" height="22" fill="#eee7d8" />
+    <path d="M11 52 L11 40 Q18 31 25 40 L25 52" fill="none" stroke="#485848" stroke-width="2" />
+    <path d="M18 0 L18 -12 L22 -19 L18 -26 L25 -20 L32 -12 L32 0" fill="#485848" />
+  </g>
+
+  <g>
+    <circle cx="626" cy="246" r="7" fill="#151211" stroke="#f7f0e5" stroke-width="2" />
+    <text x="622" y="294" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" letter-spacing="1.2">ÜRÜMQI</text>
+  </g>
+
+  <g>
+    <circle cx="308" cy="390" r="7" fill="#151211" stroke="#f7f0e5" stroke-width="2" />
+    <text x="330" y="421" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" letter-spacing="1.2">KASHGAR</text>
+  </g>
+
+  <g>
+    <circle cx="1241" cy="369" r="7" fill="#151211" stroke="#f7f0e5" stroke-width="2" />
+    <text x="1204" y="354" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" letter-spacing="1.1">BEIJING</text>
+  </g>
+
+  <text x="708" y="558" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="58" letter-spacing="8" fill="#141110">PRC</text>
+
+  <g transform="translate(306 177)">
+    <rect width="34" height="20" fill="#1693ae" stroke="#8a7a67" stroke-width="1.5" />
+    <circle cx="17" cy="10" r="4.3" fill="#e4c34a" />
+    <text x="44" y="15" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" fill="#141110">KAZ</text>
+  </g>
+
+  <g transform="translate(137 255)">
+    <rect width="34" height="20" fill="#c53030" stroke="#8a7a67" stroke-width="1.5" />
+    <circle cx="17" cy="10" r="5" fill="#e3c44d" />
+    <text x="44" y="15" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" fill="#141110">KGZ</text>
+  </g>
+
+  <g transform="translate(138 365)">
+    <rect width="34" height="20" fill="#ffffff" stroke="#8a7a67" stroke-width="1.5" />
+    <rect width="34" height="6.7" fill="#c93f3a" />
+    <rect y="13.3" width="34" height="6.7" fill="#2c8f4e" />
+    <circle cx="17" cy="10" r="2.7" fill="#d9b94f" />
+    <text x="44" y="15" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" fill="#141110">TJK</text>
+  </g>
+
+  <g transform="translate(67 443)">
+    <rect width="34" height="20" fill="#000000" stroke="#8a7a67" stroke-width="1.5" />
+    <rect x="11.33" width="11.33" height="20" fill="#a62e2e" />
+    <rect x="22.66" width="11.34" height="20" fill="#1f7a43" />
+    <text x="44" y="15" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" fill="#141110">AFG</text>
+  </g>
+
+  <g transform="translate(196 447)">
+    <rect width="34" height="20" fill="#ffffff" stroke="#8a7a67" stroke-width="1.5" />
+    <rect x="9" width="25" height="20" fill="#0f6f3f" />
+    <path d="M22 6 A5 5 0 1 0 22 14 A3.2 3.2 0 1 1 22 6" fill="#ffffff" />
+    <text x="44" y="15" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" fill="#141110">PAK</text>
+  </g>
+
+  <g transform="translate(13 317)">
+    <rect width="34" height="20" fill="#ffffff" stroke="#8a7a67" stroke-width="1.5" />
+    <rect width="34" height="6.7" fill="#e18a22" />
+    <rect y="13.3" width="34" height="6.7" fill="#2e8d49" />
+    <circle cx="17" cy="10" r="2.8" fill="#295cb3" />
+    <text x="44" y="15" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" fill="#141110">IND</text>
+  </g>
+
+  <g transform="translate(322 636)">
+    <rect width="34" height="20" fill="#ffffff" stroke="#8a7a67" stroke-width="1.5" />
+    <rect width="34" height="6.7" fill="#e18a22" />
+    <rect y="13.3" width="34" height="6.7" fill="#2e8d49" />
+    <circle cx="17" cy="10" r="2.8" fill="#295cb3" />
+    <text x="0" y="-8" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="14" fill="#141110">IND</text>
+  </g>
+
+  <g transform="translate(1233 14)">
+    <rect width="34" height="20" fill="#ffffff" stroke="#8a7a67" stroke-width="1.5" />
+    <rect y="6.7" width="34" height="6.7" fill="#2c5da8" />
+    <rect y="13.3" width="34" height="6.7" fill="#b53232" />
+    <text x="44" y="15" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="15" fill="#141110">RUS</text>
+  </g>
+
+  <g transform="translate(34 472)">
+    <rect width="238" height="216" fill="#f8f5ee" fill-opacity="0.94" stroke="#b7ab98" stroke-width="2" />
+    <text x="16" y="33" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="18" letter-spacing="1.2" fill="#171310">KEY DIMENSIONS</text>
+
+    <rect x="16" y="49" width="44" height="13" rx="2.5" fill="#d7b4b1" />
+    <line x1="22" y1="55.5" x2="54" y2="55.5" stroke="#7a201c" stroke-width="4" stroke-linecap="round" />
+    <line x1="32" y1="60" x2="44" y2="60" stroke="#2b211c" stroke-width="2" stroke-dasharray="3 3" stroke-linecap="round" />
+    <text x="68" y="56" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="12.8" letter-spacing="0.9" fill="#171310">STRATEGIC BORDER:</text>
+    <text x="68" y="73" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="12.8" letter-spacing="0.9" fill="#171310">VULNERABILITIES &amp;</text>
+    <text x="68" y="90" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="12.8" letter-spacing="0.9" fill="#171310">CONNECTIONS</text>
+    <text x="68" y="112" font-family="'Inter', Arial, sans-serif" font-size="11.8" fill="#24201b">Controlling trans-border</text>
+    <text x="68" y="127" font-family="'Inter', Arial, sans-serif" font-size="11.8" fill="#24201b">cultural/political flows</text>
+
+    <g transform="translate(16 150)">
+      <ellipse cx="20" cy="10" rx="18" ry="10" fill="#96bd96" opacity="0.72" filter="url(#green-blur)" />
+      <ellipse cx="20" cy="10" rx="14" ry="7" fill="#a4c79e" opacity="0.9" />
+    </g>
+    <text x="68" y="161" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="12.8" letter-spacing="0.9" fill="#171310">PREDOMINANT MUSLIM</text>
+    <text x="68" y="178" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="12.8" letter-spacing="0.9" fill="#171310">POPULATION</text>
+    <text x="68" y="201" font-family="'Inter', Arial, sans-serif" font-size="11.8" fill="#24201b">Defining &amp; regulating</text>
+    <text x="68" y="216" font-family="'Inter', Arial, sans-serif" font-size="11.8" fill="#24201b">Muslim life</text>
+  </g>
+
+  <g transform="translate(28 676)" stroke="#1e1916" fill="none">
+    <circle cx="0" cy="0" r="23" stroke-width="1.8" />
+    <circle cx="0" cy="0" r="7" stroke-width="1.2" />
+    <line x1="0" y1="-27" x2="0" y2="27" stroke-width="1.5" />
+    <line x1="-27" y1="0" x2="27" y2="0" stroke-width="1.5" />
+    <line x1="-18" y1="-18" x2="18" y2="18" stroke-width="1.1" />
+    <line x1="18" y1="-18" x2="-18" y2="18" stroke-width="1.1" />
+    <path d="M0 -25 L4 -7 L0 -10 L-4 -7 Z" fill="#1e1916" stroke="none" />
+    <path d="M25 0 L7 4 L10 0 L7 -4 Z" fill="#1e1916" stroke="none" />
+    <path d="M0 25 L-4 7 L0 10 L4 7 Z" fill="#1e1916" stroke="none" />
+    <path d="M-25 0 L-7 -4 L-10 0 L-7 4 Z" fill="#1e1916" stroke="none" />
+    <text x="0" y="-31" text-anchor="middle" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10" fill="#1e1916" stroke="none">N</text>
+  </g>
+</svg>
