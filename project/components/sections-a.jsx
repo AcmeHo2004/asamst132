@@ -410,7 +410,7 @@ function Surveillance() {
         </div>
 
         <div className="grid-12" style={{marginBottom: 56}}>
-          <div className="span-12">
+          <div className="span-7">
             <p style={{maxWidth: '72ch'}}>
               The inputs show how wide the system has become. It isn't just
               about crime. Everyday behavior, movement, contact, and routine
@@ -421,6 +421,19 @@ function Surveillance() {
               information. It helps decide who becomes visible to the state as
               a problem.
             </p>
+          </div>
+          <div className="span-5">
+            <div className="figure surveillance-photo">
+              <img
+                src="uploads/checkpoint-xinjiang.webp"
+                alt="A police checkpoint in Xinjiang with vehicles passing through."
+              />
+            </div>
+            <Caption>
+              Surveillance infrastructure embedded in everyday urban space.
+              Biometric and behavioral data collection feeds into
+              classification systems that shape intervention.
+            </Caption>
           </div>
         </div>
 
