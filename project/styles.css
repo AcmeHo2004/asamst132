@@ -520,7 +520,7 @@ section.sect {
   object-fit: cover;
 }
 .figure.scope-trade-photo {
-  width: min(100%, 360px);
+  width: min(100%, 390px);
   aspect-ratio: 1408 / 768;
   margin-top: 28px;
 }
@@ -529,6 +529,55 @@ section.sect {
   height: 100%;
   display: block;
   object-fit: cover;
+}
+
+.conclusion-atmosphere {
+  isolation: isolate;
+  overflow: hidden;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(245, 242, 234, 0.6) 0%,
+      rgba(245, 242, 234, 0.82) 30%,
+      rgba(245, 242, 234, 0.96) 58%,
+      rgba(245, 242, 234, 1) 100%
+    );
+}
+
+.conclusion-atmosphere::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 50% 20%, rgba(255, 255, 255, 0.28), transparent 48%),
+    linear-gradient(180deg, rgba(245, 242, 234, 0.18) 0%, rgba(245, 242, 234, 0.92) 66%, rgba(245, 242, 234, 1) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.conclusion-bg {
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: min(72%, 720px);
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.conclusion-bg img {
+  width: 112%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center top;
+  transform: translateX(-4%) scale(1.04);
+  opacity: 0.24;
+  filter: blur(6px) saturate(0.72);
+}
+
+.conclusion-atmosphere-content {
+  position: relative;
+  z-index: 2;
 }
 
 .caption {
@@ -587,13 +636,13 @@ section.sect {
 }
 
 .scope-trade-caption {
-  width: min(100%, 360px);
+  width: min(100%, 390px);
   max-width: none;
 }
 
 .scope-note-copy {
-  width: min(100%, 57ch);
-  margin-left: auto;
+  width: min(100%, 60ch);
+  margin-left: clamp(16px, 2vw, 40px);
 }
 
 .scope-note-copy p {
@@ -641,6 +690,17 @@ section.sect {
     width: 100%;
     max-width: 100%;
     margin-top: 16px;
+  }
+
+  .conclusion-bg {
+    height: 48%;
+  }
+
+  .conclusion-bg img {
+    width: 170%;
+    transform: translateX(-24%) scale(1.04);
+    opacity: 0.22;
+    filter: blur(5px) saturate(0.72);
   }
 }
 
