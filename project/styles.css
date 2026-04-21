@@ -524,22 +524,44 @@ section.sect {
   margin-top: 4px;
 }
 
-.country-profile-caption,
-.country-profile-followup {
+.country-profile-caption {
   width: 66.666%;
   max-width: none;
 }
 
 .country-profile-followup {
+  width: 100%;
+  max-width: none;
   margin-top: 16px;
   margin-bottom: 0;
 }
 
+.policy-photo-caption {
+  width: 50%;
+  max-width: none;
+}
+
+.surveillance-inputs-copy {
+  max-width: 72ch;
+  margin-top: 28px;
+}
+
+.surveillance-photo-caption {
+  width: 66.666%;
+  max-width: none;
+}
+
 @media (max-width: 900px) {
   .country-profile-caption,
-  .country-profile-followup {
+  .country-profile-followup,
+  .policy-photo-caption,
+  .surveillance-photo-caption {
     width: 100%;
     max-width: 100%;
+  }
+
+  .surveillance-inputs-copy {
+    margin-top: 0;
   }
 
   .country-profile-followup {

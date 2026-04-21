@@ -288,7 +288,7 @@ function PoliticalFraming() {
             alt="Officials seated around a conference table during a Xinjiang policy meeting."
           />
         </div>
-        <Caption>
+        <Caption className="policy-photo-caption">
           Policy discourse is not produced through public debate but through
           internal coordination among officials. Meetings such as this serve
           as sites where categories, priorities, and acceptable forms of
@@ -423,7 +423,7 @@ function Surveillance() {
 
         <div className="grid-12" style={{marginBottom: 56}}>
           <div className="span-7">
-            <p style={{maxWidth: '72ch'}}>
+            <p className="surveillance-inputs-copy">
               The inputs show how wide the system has become. It isn't just
               about crime. Everyday behavior, movement, contact, and routine
               all get pulled in, collected, sorted, and interpreted. The
@@ -441,7 +441,7 @@ function Surveillance() {
                 alt="A police checkpoint in Xinjiang with vehicles passing through."
               />
             </div>
-            <Caption>
+            <Caption className="surveillance-photo-caption">
               Surveillance infrastructure embedded in everyday urban space.
               Biometric and behavioral data collection feeds into
               classification systems that shape intervention.
