@@ -463,22 +463,22 @@ function Conclusion() {
 function Footer() {
   const biblio = [
     { author: "Amnesty International", year: "2021", title: "Like We Were Enemies in a War: China's Mass Internment, Torture and Persecution of Muslims in Xinjiang", url: "https://www.amnesty.org/en/documents/asa17/4137/2021/en/" },
-    { author: "China Law Translate", year: "2017", title: "Xinjiang Uyghur Autonomous Region Regulation on De-Extremification", url: "https://www.chinalawtranslate.com/en/xinjiang-de-extremification-regulation/" },
-    { author: "China Law Translate", year: "2024", title: "Xinjiang Uyghur Autonomous Region Religious Affairs Regulations", url: "https://www.chinalawtranslate.com/en/xinjiang-religious-affairs-regulations-2024/" },
-    { author: "Financial Times", year: "2023", title: "How China Is Tearing Down Islam", url: "https://www.ft.com/content/7b7c3c1a-6a63-4c4b-9f2f-9c1c3c7c6b3b" },
-    { author: "Freedom House", year: "2026", title: "Collaboration and Resistance: Tracking Transnational Repression 2025", url: "https://freedomhouse.org/report/transnational-repression/collaboration-and-resistance-2025" },
+    { author: "China Law Translate", year: "2017", title: "Xinjiang Uyghur Autonomous Region Regulation on De-Extremification", url: "https://www.chinalawtranslate.com/en/xinjiang-uyghur-autonomous-region-regulation-on-de-extremification/" },
+    { author: "China Law Translate", year: "2024", title: "Xinjiang Uyghur Autonomous Region Religious Affairs Regulations", url: "https://www.chinalawtranslate.com/en/xj-religious-affairs/" },
+    { author: "Financial Times", year: "2023", title: "How China Is Tearing Down Islam", url: "https://ig.ft.com/china-mosques/" },
+    { author: "Freedom House", year: "2026", title: "Collaboration and Resistance: Tracking Transnational Repression 2025", url: "https://freedomhouse.org/report/special-report/2026/collaboration-and-resistance-tracking-transnational-repression-2025" },
     { author: "Human Rights Watch", year: "2018", title: "China: Big Data Fuels Crackdown in Minority Region", url: "https://www.hrw.org/news/2018/02/27/china-big-data-fuels-crackdown-minority-region" },
     { author: "Human Rights Watch", year: "2019", title: "China's Algorithms of Repression: Reverse Engineering a Xinjiang Police Mass Surveillance App", url: "https://www.hrw.org/report/2019/05/01/chinas-algorithms-repression/reverse-engineering-xinjiang-police-mass" },
-    { author: "Human Rights Watch", year: "2021", title: "Break Their Lineage, Break Their Roots", url: "https://www.hrw.org/report/2021/04/19/break-their-lineage-break-their-roots" },
+    { author: "Human Rights Watch", year: "2021", title: "Break Their Lineage, Break Their Roots", url: "https://www.hrw.org/report/2021/04/19/break-their-lineage-break-their-roots/chinas-crimes-against-humanity-targeting" },
     { author: "Human Rights Watch", year: "2023", title: "China: Mosques Shuttered, Razed, Altered in Muslim Areas", url: "https://www.hrw.org/news/2023/11/22/china-mosques-shuttered-razed-altered-muslim-areas" },
     { author: "Human Rights Watch", year: "2024a", title: "China: Religious Regulations Tighten for Uyghurs", url: "https://www.hrw.org/news/2024/01/31/china-religious-regulations-tighten-uyghurs" },
     { author: "Human Rights Watch", year: "2024b", title: "China: Hundreds of Uyghur Village Names Change", url: "https://www.hrw.org/news/2024/06/18/china-hundreds-uyghur-village-names-change" },
     { author: "Human Rights Watch", year: "2024c", title: "Asleep at the Wheel: Car Companies' Complicity in Forced Labor in China", url: "https://www.hrw.org/report/2024/02/01/asleep-wheel/car-companies-complicity-forced-labor-china" },
     { author: "Human Rights Watch", year: "2025", title: "China: Travel for Uyghurs Heavily Restricted", url: "https://www.hrw.org/news/2025/02/03/china-travel-uyghurs-heavily-restricted" },
-    { author: "Miao, Y.", year: "2024", title: "Privilege and Prejudice: Han Victimhood and Legitimizing Islamophobia in China", journal: "The China Quarterly" },
-    { author: "National Bureau of Statistics of China", year: "2021", title: "Communiqué of the Seventh National Population Census", url: "http://www.stats.gov.cn/english/PressRelease/202105/t20210510_1817185.html" },
-    { author: "OHCHR", year: "2022", title: "Assessment of Human Rights Concerns in the Xinjiang Uyghur Autonomous Region", url: "https://www.ohchr.org/en/documents/reports/ohchr-assessment-human-rights-concerns-xinjiang" },
-    { author: "Pew Research Center", year: "2023", title: "Islam in China", url: "https://www.pewresearch.org/religion/2023/08/30/islam-in-china/" },
+    { author: "Miao, Y.", year: "2024", title: "Privilege and Prejudice: Han Victimhood and Legitimizing Islamophobia in China", journal: "The China Quarterly", url: "https://www.cambridge.org/core/journals/china-quarterly/article/privilege-and-prejudice-han-victimhood-and-legitimizing-islamophobia-in-china/B64F2012222FB13058996A7126CB1496" },
+    { author: "National Bureau of Statistics of China", year: "2021", title: "Communiqué of the Seventh National Population Census", url: "https://www.stats.gov.cn/english/PressRelease/202105/t20210510_1817185.html" },
+    { author: "OHCHR", year: "2022", title: "Assessment of Human Rights Concerns in the Xinjiang Uyghur Autonomous Region", url: "https://www.ohchr.org/en/documents/country-reports/ohchr-assessment-human-rights-concerns-xinjiang-uyghur-autonomous-region" },
+    { author: "Pew Research Center", year: "2023", title: "Islam in China", url: "https://www.pewresearch.org/religion/2023/08/30/islam/" },
     { author: "Reuters", year: "2021a", title: "China Found Using Surveillance Firms to Help Write Ethnic-Tracking Specs", url: "https://www.reuters.com/world/china-found-using-surveillance-firms-help-write-ethnic-tracking-specs--trfn-2021-03-30/" },
     { author: "Reuters", year: "2021b", title: "Chinese Tech Patents Tools That Can Detect, Track Uighurs", url: "https://www.reuters.com/world/chinese-tech-patents-tools-that-can-detect-track-uighurs-2021-01-14/" },
     { author: "Reuters", year: "2024a", title: "Top Official from China's Xinjiang Says Sinicisation of Islam Inevitable", url: "https://www.reuters.com/world/china/top-official-chinas-xinjiang-says-sinicisation-islam-inevitable-2024-03-07/" },
@@ -486,16 +486,21 @@ function Footer() {
     { author: "Reuters", year: "2024c", title: "US Bars Imports from China Footwear, Seafood, Aluminum Firms Over Uyghur Labor", url: "https://www.reuters.com/business/us-bars-imports-footwear-seafood-aluminum-firms-over-uyghur-labor-2024-06-11/" },
     { author: "Reuters", year: "2024d", title: "VW Buckles After Years of Pressure to Sell Up in Xinjiang", url: "https://www.reuters.com/business/autos-transportation/vw-exit-xinjiang-operation-with-sales-local-plant-test-track-sources-say-2024-11-27/" },
     { author: "Reuters", year: "2024e", title: "Uyghur Group Wins Appeal Over UK Probe into 'Slave Labour' Cotton", url: "https://www.reuters.com/world/uk/uyghur-group-wins-appeal-over-uk-probe-into-slave-labour-cotton-2024-06-27/" },
-    { author: "Shibli, N.", year: "2021", title: "Political Geographies of Islamophobia: Chinese Ethno-Religious Racism and Structural Violence in East Turkestan", journal: "Islamophobia Studies Journal" },
-    { author: "Skenderovic, D.", year: "2019", title: "From Orientalism to Islamophobia", journal: "ReOrient" },
-    { author: "Stroup, D. R.", year: "2021", title: "Good Minzu and Bad Muslims: Islamophobia in China's State and Public Discourses", journal: "Nations and Nationalism" },
-    { author: "The Guardian", year: "2019", title: "\"Show No Mercy\": Leaked Documents Reveal China's Mass Xinjiang Detentions", url: "https://www.theguardian.com/world/2019/nov/24/china-cables-revealed-international-consortium-investigative-journalists" },
-    { author: "The Guardian", year: "2024a", title: "Carmakers May Be Using Aluminium Made by Uyghur Forced Labour", url: "https://www.theguardian.com/world/2024/feb/01/carmakers-may-be-using-aluminium-made-by-uyghur-forced-labour" },
-    { author: "The Guardian", year: "2024b", title: "China Has Renamed Hundreds of Uyghur Villages and Towns", url: "https://www.theguardian.com/world/2024/jun/18/china-renamed-uyghur-villages-towns-xinjiang" },
-    { author: "The New Yorker", year: "2023", title: "The Uyghurs Forced to Process the World's Fish", url: "https://www.newyorker.com/magazine/2023/10/30/the-uyghurs-forced-to-process-the-worlds-fish" },
-    { author: "Trédaniel, M.", year: "2018", title: "Explaining the Chinese Framing of Terrorist Violence in Xinjiang", journal: "Nationalities Papers" },
-    { author: "Washington Post", year: "2025", title: "Thailand Repatriates 40 Uyghurs to China", url: "https://www.washingtonpost.com/world/2025/02/27/thailand-uyghurs-deportation-china/" },
+    { author: "Shibli, N.", year: "2021", title: "Political Geographies of Islamophobia: Chinese Ethno-Religious Racism and Structural Violence in East Turkestan", journal: "Islamophobia Studies Journal", url: "https://www.scienceopen.com/hosted-document?doi=10.13169/islastudj.6.2.0150" },
+    { author: "Skenderovic, D.", year: "2019", title: "From Orientalism to Islamophobia", journal: "ReOrient", url: "https://www.scienceopen.com/hosted-document?doi=10.13169/reorient.4.2.0130" },
+    { author: "Stroup, D. R.", year: "2021", title: "Good Minzu and Bad Muslims: Islamophobia in China's State and Public Discourses", journal: "Nations and Nationalism", url: "https://onlinelibrary.wiley.com/doi/10.1111/nana.12758" },
+    { author: "The Guardian", year: "2019", title: "\"Show No Mercy\": Leaked Documents Reveal China's Mass Xinjiang Detentions", url: "https://www.theguardian.com/world/2019/nov/17/show-no-mercy-leaked-documents-reveal-details-of-chinas-mass-xinjiang-detentions" },
+    { author: "The Guardian", year: "2024a", title: "Carmakers May Be Using Aluminium Made by Uyghur Forced Labour", url: "https://www.theguardian.com/law/2024/feb/01/car-manufacturers-toyota-volkswagen-tesla-general-motors-byd-alleged-forced-labour-aluminium-uyghur" },
+    { author: "The Guardian", year: "2024b", title: "China Has Renamed Hundreds of Uyghur Villages and Towns", url: "https://www.theguardian.com/world/article/2024/jun/19/china-has-renamed-hundreds-of-uyghur-villages-and-towns-say-human-rights-groups" },
+    { author: "The New Yorker", year: "2023", title: "The Uyghurs Forced to Process the World's Fish", url: "https://www.newyorker.com/news/news-desk/the-uyghurs-forced-to-process-the-worlds-fish" },
+    { author: "Trédaniel, M.", year: "2018", title: "Explaining the Chinese Framing of Terrorist Violence in Xinjiang", journal: "Nationalities Papers", url: "https://kar.kent.ac.uk/59699/" },
+    { author: "Washington Post", year: "2025", title: "Thailand Repatriates 40 Uyghurs to China", url: "https://www.washingtonpost.com/world/2025/02/27/thai-china-uyghurs-deported/" },
     { author: "World Bank", year: "2024", title: "Population, Total: China", url: "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CN" },
+    { author: "CNN", year: "2018, February 2", title: "China's Xinjiang detention camps: Inside the crackdown", url: "https://edition.cnn.com/2018/02/02/asia/china-xinjiang-detention-camps-intl" },
+    { author: "NBC News", year: "2020", title: "Major brands try to determine if cotton in their clothes is linked to Uyghur forced labor", url: "https://www.nbcnews.com/news/china/major-brands-try-determine-if-cotton-their-clothes-uighur-forced-n1240756" },
+    { author: "The New York Times", year: "2019, July 2", title: "How China uses apps to surveil Xinjiang residents", url: "https://www.nytimes.com/2019/07/02/technology/china-xinjiang-app.html" },
+    { author: "The Guardian", year: "2024, May 25", title: "Shadian: Last major Islamic-style mosque in China loses its domes", url: "https://www.theguardian.com/world/article/2024/may/25/shadian-last-major-islamic-style-mosque-in-china-loses-its-domes" },
+    { author: "CPNN", year: "2026", title: "和田地区制定双语教育五条规定，加强中小学双语教育", url: "https://www.cpnn.com.cn/news/dfny/202603/t20260309_1871622.html" },
   ];
 
   return (
@@ -520,7 +525,7 @@ function Footer() {
             <ol className="biblio-list">
               {biblio.map((b, i) => (
                 <li key={i}>
-                  <span className="b-auth">{b.author}.</span>{' '}
+                  <span className="b-auth">{/[.!?]$/.test(b.author) ? b.author : `${b.author}.`}</span>{' '}
                   <span className="b-year">({b.year}).</span>{' '}
                   {b.url
                     ? <a className="b-title" href={b.url} target="_blank" rel="noopener noreferrer"><em>{b.title}</em></a>
