@@ -2,30 +2,11 @@
 
 function ChinaMap() {
   return (
-    <svg
-      viewBox="0 0 800 520"
-      style={{ width: '100%', height: 'auto', display: 'block' }}
-      aria-label="Stylized map of Xinjiang and China highlighting neighboring borders, cities, and regional Muslim population patterns."
-    >
-      <defs>
-        <pattern id="map-placeholder-grid" patternUnits="userSpaceOnUse" width="48" height="48">
-          <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#d8ccba" strokeWidth="0.8" />
-        </pattern>
-      </defs>
-
-      <rect width="800" height="520" fill="#f4eee2" />
-      <rect width="800" height="520" fill="url(#map-placeholder-grid)" opacity="0.35" />
-      <rect x="18" y="18" width="764" height="430" fill="#f7f1e6" stroke="#d5c8b7" strokeWidth="1.2" />
-      <image
-        href="uploads/gemini-xinjiang-map.svg"
-        x="18"
-        y="18"
-        width="764"
-        height="430"
-        preserveAspectRatio="xMidYMid meet"
-      />
-      <rect x="18" y="18" width="764" height="430" fill="none" stroke="#cec2b0" strokeWidth="0.8" />
-    </svg>
+    <img
+      src="uploads/xinjiang-map-upload.png"
+      alt="Map of Xinjiang and surrounding region highlighting strategic borders, Muslim population concentration, and key cities."
+      style={{ width: '100%', height: '100%', display: 'block', objectFit: 'cover' }}
+    />
   );
 }
 
