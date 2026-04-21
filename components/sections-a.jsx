@@ -108,7 +108,7 @@ function CountryProfile() {
           deck="Xinjiang is China's largest provincial-level region by area. It is home to a large concentration of Turkic-speaking Muslim communities. It is also the place where the Chinese state has carried out its most intensive contemporary program of religious and ethnic control."
         />
 
-        <div className="grid-12" style={{marginBottom: 56}}>
+        <div className="grid-12" style={{marginBottom: 40}}>
           <div className="span-7">
             <Figure
               note="01 · TERRITORIAL CONTEXT"
@@ -120,12 +120,23 @@ function CountryProfile() {
                 <ChinaMap />
               </div>
             </Figure>
-            <Caption source="Population figures: NBS of China, Seventh National Census (2021); PRC total: World Bank (2024).">
+            <Caption
+              className="country-profile-caption"
+              source="Population figures: NBS of China, Seventh National Census (2021); PRC total: World Bank (2024)."
+            >
               The combination of size, demography, and geography matters.
               Xinjiang is not just a peripheral region. It is a frontier space
               where security, sovereignty, development, and minority
               governance have been tightly fused.
             </Caption>
+            <p className="country-profile-followup">
+              The figures do more than provide demographic background. They
+              help explain why Xinjiang occupies such a central place in the
+              story. It is a strategically important border region, and also
+              one of the most significant Muslim-majority spaces within China.
+              The combination makes it especially important to the state's
+              effort to define, classify, and regulate Muslim life.
+            </p>
           </div>
 
           <div className="span-5">
@@ -135,19 +146,6 @@ function CountryProfile() {
               <Stat value="~18" unit="MILLION" label="Muslim adults in China, 2020 est." source="PEW RESEARCH CENTER (2023)" />
               <Stat value="~11" unit="MILLION" label="Uyghurs · predominantly Muslim, Turkic-speaking" source="OHCHR ASSESSMENT (2022)" />
             </div>
-          </div>
-        </div>
-
-        <div className="grid-12" style={{marginBottom: 72}}>
-          <div className="span-12">
-            <p style={{maxWidth: '72ch'}}>
-              The figures do more than provide demographic background. They
-              help explain why Xinjiang occupies such a central place in the
-              story. It is a strategically important border region, and also
-              one of the most significant Muslim-majority spaces within China.
-              The combination makes it especially important to the state's
-              effort to define, classify, and regulate Muslim life.
-            </p>
           </div>
         </div>
 
