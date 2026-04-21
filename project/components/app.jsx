@@ -1,6 +1,6 @@
 /* App shell: topbar, tweaks panel, compose sections */
 
-function Topbar({ activeSection }) {
+function Topbar({ activeSection, expanded, setTopbarFocused }) {
   const items = [
     { id: "preface", label: "Preface" },
     { id: "profile", label: "Country" },
@@ -12,14 +12,22 @@ function Topbar({ activeSection }) {
     { id: "scope", label: "Scope" },
     { id: "conclusion", label: "Conclusion" },
   ];
+  const current = items.find((it) => it.id === activeSection) || items[0];
   return (
-    <div className="topbar">
+    <div
+      className={`topbar ${expanded ? "is-expanded" : "is-condensed"}`}
+      onFocusCapture={() => setTopbarFocused(true)}
+      onBlurCapture={(e) => {
+        if (!e.currentTarget.contains(e.relatedTarget)) setTopbarFocused(false);
+      }}
+    >
       <div className="topbar-inner">
         <div className="mast">
           <span className="dot" />
           <span>Group 01 · ASAMST 132</span>
           <span style={{color: 'var(--muted)'}}>· Editorial Research Site</span>
         </div>
+        <div className="topbar-current">{current.label}</div>
         <nav className="topbar-nav">
           {items.map(it => (
             <a
@@ -116,6 +124,9 @@ function App() {
   const [tweaks, _setTweaks] = useState(TWEAK_DEFAULTS);
   const [tweaksVisible, setTweaksVisible] = useState(false);
   const [active, setActive] = useState("preface");
+  const [topbarMouseReveal, setTopbarMouseReveal] = useState(false);
+  const [topbarScrollReveal, setTopbarScrollReveal] = useState(true);
+  const [topbarFocused, setTopbarFocused] = useState(false);
 
   const setTweaks = (patch) => {
     const next = { ...tweaks, ...patch };
@@ -155,24 +166,57 @@ function App() {
 
   // Scroll-spy
   useEffect(() => {
+    const threshold = 76;
+    const onMouseMove = (e) => {
+      const next = e.clientY <= threshold;
+      setTopbarMouseReveal((prev) => (prev === next ? prev : next));
+    };
+    const onMouseLeave = () => setTopbarMouseReveal(false);
+    window.addEventListener('mousemove', onMouseMove, { passive: true });
+    document.addEventListener('mouseleave', onMouseLeave);
+    return () => {
+      window.removeEventListener('mousemove', onMouseMove);
+      document.removeEventListener('mouseleave', onMouseLeave);
+    };
+  }, []);
+
+  useEffect(() => {
     const ids = ['preface','profile','framing','mechanism','surveillance','media','response','scope','conclusion'];
+    let lastY = window.scrollY;
     const onScroll = () => {
-      const scrollY = window.scrollY + 120;
+      const pageY = window.scrollY;
+      const scrollY = pageY + 120;
       let current = ids[0];
       for (const id of ids) {
         const el = document.getElementById(id);
         if (el && el.offsetTop <= scrollY) current = id;
       }
       setActive(current);
+
+      const nearTop = pageY <= 96;
+      const scrollingUp = pageY < lastY - 6;
+      const scrollingDown = pageY > lastY + 6;
+      if (nearTop || scrollingUp) {
+        setTopbarScrollReveal((prev) => (prev ? prev : true));
+      } else if (scrollingDown) {
+        setTopbarScrollReveal((prev) => (prev ? false : prev));
+      }
+      lastY = pageY;
     };
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  const topbarExpanded = topbarFocused || topbarMouseReveal || topbarScrollReveal;
+
   return (
     <div className="page">
-      <Topbar activeSection={active} />
+      <Topbar
+        activeSection={active}
+        expanded={topbarExpanded}
+        setTopbarFocused={setTopbarFocused}
+      />
       <Hero />
       <Preface />
       <CountryProfile />
