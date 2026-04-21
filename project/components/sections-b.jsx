@@ -22,21 +22,27 @@ function MediaCulture() {
             </p>
             <p>
               Policy carries the logic into public space. Mosques are altered.
-              Arabic script is removed. Religious architecture is reshaped.
-              Cultural forms that once signaled visible Islamic presence are
-              reduced, replaced, or reclassified under the language of order,
-              modernization, and national unity.
+              Arabic script is removed. These changes are not uniform, but
+              they consistently shift visible markers of Islam toward forms
+              aligned with state aesthetics and messaging. Religious
+              architecture is reshaped. Cultural forms that once signaled
+              visible Islamic presence are reduced, replaced, or reclassified
+              under the language of order, modernization, and national unity.
             </p>
           </div>
           <div className="span-6">
-            <ArchivalPlaceholder
-              label="Mosque architecture before/after Sinicization"
-              detail="DROP-IN: SIDE-BY-SIDE PHOTO COMPARISON"
-              aspect="wide"
-            />
-            <Caption source="Financial Times (2023); Human Rights Watch (2023, 2024b).">
-              Domes, minarets, and Arabic signage have been removed at scale,
-              first in Xinjiang and subsequently across Hui-majority regions.
+            <div className="figure mosque-photo">
+              <img
+                src="uploads/mosques.webp"
+                alt="Comparison of earlier mosque architecture and a renovated mosque under state guidelines."
+              />
+            </div>
+            <Caption source="Upper image: earlier mosque architecture · Lower image: renovated mosque under state guidelines">
+              Contrasting mosque architecture in China. The upper image shows
+              earlier Islamic-style design, while the lower image reflects
+              more recent renovations in which domes are reduced and Chinese
+              architectural forms and state symbols are introduced into the
+              space.
             </Caption>
           </div>
         </div>
