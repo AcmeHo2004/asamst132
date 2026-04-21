@@ -551,11 +551,24 @@ section.sect {
   max-width: none;
 }
 
+.media-mosque-caption {
+  width: min(100%, 42ch);
+  max-width: none;
+  margin-top: 28px;
+  margin-left: auto;
+  text-align: right;
+}
+
+.media-mosque-caption .src {
+  text-align: right;
+}
+
 @media (max-width: 900px) {
   .country-profile-caption,
   .country-profile-followup,
   .policy-photo-caption,
-  .surveillance-photo-caption {
+  .surveillance-photo-caption,
+  .media-mosque-caption {
     width: 100%;
     max-width: 100%;
   }
@@ -566,6 +579,11 @@ section.sect {
 
   .country-profile-followup {
     margin-top: 14px;
+  }
+
+  .media-mosque-caption,
+  .media-mosque-caption .src {
+    text-align: left;
   }
 }
 
