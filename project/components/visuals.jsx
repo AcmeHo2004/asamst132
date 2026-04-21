@@ -1,94 +1,30 @@
 /* SVG visuals: map, mechanism diagram, surveillance flow */
 
 function ChinaMap() {
-  // Stylized editorial map — simplified China outline with Xinjiang highlighted.
-  // Hand-authored path set; no external data.
   return (
-    <svg viewBox="0 0 800 520" style={{width: '100%', height: 'auto', display: 'block'}} aria-label="Map of China with Xinjiang region highlighted">
+    <svg
+      viewBox="0 0 800 520"
+      style={{ width: '100%', height: 'auto', display: 'block' }}
+      aria-label="Stylized map of Xinjiang and China highlighting neighboring borders, cities, and regional Muslim population patterns."
+    >
       <defs>
-        <pattern id="hatch" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)">
-          <line x1="0" y1="0" x2="0" y2="6" stroke="#8B1A1A" strokeWidth="1.2" opacity="0.55" />
-        </pattern>
-        <pattern id="dots" patternUnits="userSpaceOnUse" width="8" height="8">
-          <circle cx="1" cy="1" r="0.7" fill="#4A4A46" opacity="0.5" />
+        <pattern id="map-placeholder-grid" patternUnits="userSpaceOnUse" width="48" height="48">
+          <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#d8ccba" strokeWidth="0.8" />
         </pattern>
       </defs>
 
-      {/* Graticule */}
-      <g stroke="#C9C2B0" strokeWidth="0.5" opacity="0.5">
-        {Array.from({length: 10}).map((_, i) => (
-          <line key={`v${i}`} x1={80 * i} y1="0" x2={80 * i} y2="520" />
-        ))}
-        {Array.from({length: 7}).map((_, i) => (
-          <line key={`h${i}`} x1="0" y1={80 * i} x2="800" y2={80 * i} />
-        ))}
-      </g>
-
-      {/* China outline (simplified, stylized — not geographically precise) */}
-      <path
-        d="M 120 180 L 165 140 L 220 130 L 280 145 L 340 130 L 410 140 L 470 160 L 520 150 L 580 170 L 640 195 L 695 210 L 720 245 L 735 295 L 720 340 L 680 365 L 640 380 L 605 410 L 555 420 L 500 425 L 450 430 L 400 420 L 355 405 L 315 395 L 275 380 L 240 355 L 210 330 L 185 305 L 160 275 L 140 240 L 125 210 Z"
-        fill="url(#dots)"
-        stroke="#1C1B18"
-        strokeWidth="1.2"
+      <rect width="800" height="520" fill="#f4eee2" />
+      <rect width="800" height="520" fill="url(#map-placeholder-grid)" opacity="0.35" />
+      <rect x="18" y="18" width="764" height="430" fill="#f7f1e6" stroke="#d5c8b7" strokeWidth="1.2" />
+      <image
+        href="uploads/gemini-xinjiang-map.svg"
+        x="18"
+        y="18"
+        width="764"
+        height="430"
+        preserveAspectRatio="xMidYMid meet"
       />
-
-      {/* Xinjiang — the highlighted region, roughly NW China */}
-      <path
-        d="M 130 185 L 170 148 L 225 138 L 290 152 L 330 175 L 335 215 L 320 250 L 290 270 L 240 275 L 200 265 L 165 250 L 138 220 Z"
-        fill="url(#hatch)"
-        stroke="#8B1A1A"
-        strokeWidth="1.8"
-      />
-
-      {/* Capital dot — Ürümqi */}
-      <g>
-        <circle cx="245" cy="210" r="3.5" fill="#8B1A1A" />
-        <line x1="245" y1="210" x2="245" y2="170" stroke="#8B1A1A" strokeWidth="0.8" />
-        <text x="248" y="164" fontFamily="JetBrains Mono, monospace" fontSize="10" fill="#1C1B18" letterSpacing="1.5">ÜRÜMQI</text>
-      </g>
-
-      {/* Beijing reference */}
-      <g>
-        <circle cx="560" cy="220" r="2.5" fill="#1C1B18" />
-        <line x1="560" y1="220" x2="560" y2="195" stroke="#1C1B18" strokeWidth="0.5" />
-        <text x="564" y="190" fontFamily="JetBrains Mono, monospace" fontSize="9" fill="#4A4A46" letterSpacing="1.2">BEIJING</text>
-      </g>
-
-      {/* Region label */}
-      <g>
-        <line x1="230" y1="210" x2="230" y2="320" stroke="#8B1A1A" strokeWidth="0.6" strokeDasharray="2 3" />
-        <text x="235" y="338" fontFamily="Source Serif 4, Georgia, serif" fontSize="20" fill="#8B1A1A" fontStyle="italic">Xinjiang</text>
-        <text x="235" y="356" fontFamily="JetBrains Mono, monospace" fontSize="9" fill="#4A4A46" letterSpacing="1.5">UYGHUR AUTONOMOUS REGION</text>
-        <text x="235" y="371" fontFamily="JetBrains Mono, monospace" fontSize="9" fill="#4A4A46" letterSpacing="1.5">1,664,897 KM²  ·  25.85M PEOPLE</text>
-      </g>
-
-      {/* Border labels */}
-      <text x="90" y="200" fontFamily="JetBrains Mono, monospace" fontSize="8" fill="#6B675E" letterSpacing="1" opacity="0.7">KAZ</text>
-      <text x="100" y="260" fontFamily="JetBrains Mono, monospace" fontSize="8" fill="#6B675E" letterSpacing="1" opacity="0.7">KGZ</text>
-      <text x="130" y="305" fontFamily="JetBrains Mono, monospace" fontSize="8" fill="#6B675E" letterSpacing="1" opacity="0.7">TJK</text>
-      <text x="165" y="340" fontFamily="JetBrains Mono, monospace" fontSize="8" fill="#6B675E" letterSpacing="1" opacity="0.7">AFG · PAK</text>
-
-      {/* Compass / scale */}
-      <g transform="translate(700, 440)">
-        <circle cx="0" cy="0" r="16" fill="none" stroke="#1C1B18" strokeWidth="0.7" />
-        <line x1="0" y1="-16" x2="0" y2="16" stroke="#1C1B18" strokeWidth="0.7" />
-        <line x1="-16" y1="0" x2="16" y2="0" stroke="#1C1B18" strokeWidth="0.7" />
-        <text x="0" y="-20" fontFamily="JetBrains Mono, monospace" fontSize="9" fill="#1C1B18" textAnchor="middle">N</text>
-      </g>
-
-      {/* Legend */}
-      <g transform="translate(40, 430)">
-        <text fontFamily="JetBrains Mono, monospace" fontSize="9" fill="#1C1B18" letterSpacing="1.5" y="0">LEGEND</text>
-        <rect x="0" y="12" width="22" height="10" fill="url(#hatch)" stroke="#8B1A1A" strokeWidth="1" />
-        <text x="30" y="21" fontFamily="JetBrains Mono, monospace" fontSize="9" fill="#4A4A46" letterSpacing="1">XINJIANG UYGHUR A.R.</text>
-        <rect x="0" y="30" width="22" height="10" fill="url(#dots)" stroke="#1C1B18" strokeWidth="1" />
-        <text x="30" y="39" fontFamily="JetBrains Mono, monospace" fontSize="9" fill="#4A4A46" letterSpacing="1">PEOPLE'S REPUBLIC OF CHINA</text>
-        <circle cx="11" cy="52" r="3" fill="#8B1A1A" />
-        <text x="30" y="55" fontFamily="JetBrains Mono, monospace" fontSize="9" fill="#4A4A46" letterSpacing="1">REGIONAL CAPITAL</text>
-      </g>
-
-      {/* Figure number */}
-      <text x="40" y="30" fontFamily="JetBrains Mono, monospace" fontSize="9" fill="#6B675E" letterSpacing="2">FIG. 01  ·  TERRITORIAL CONTEXT</text>
+      <rect x="18" y="18" width="764" height="430" fill="none" stroke="#cec2b0" strokeWidth="0.8" />
     </svg>
   );
 }
