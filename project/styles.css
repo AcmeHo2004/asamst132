@@ -524,6 +524,27 @@ section.sect {
   margin-top: 4px;
 }
 
+.country-profile-caption,
+.country-profile-followup {
+  max-width: 68%;
+}
+
+.country-profile-followup {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .country-profile-caption,
+  .country-profile-followup {
+    max-width: 100%;
+  }
+
+  .country-profile-followup {
+    margin-top: 14px;
+  }
+}
+
 /* ---------- Timeline (horizontal) ---------- */
 
 .timeline {

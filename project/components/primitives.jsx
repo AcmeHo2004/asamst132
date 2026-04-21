@@ -75,9 +75,9 @@ function Figure({ note, label, source, aspect = "wide", children, style }) {
   );
 }
 
-function Caption({ children, source }) {
+function Caption({ children, source, className = "", style }) {
   return (
-    <div className="caption">
+    <div className={className ? `caption ${className}` : "caption"} style={style}>
       {children}
       {source && <span className="src">{source}</span>}
     </div>
