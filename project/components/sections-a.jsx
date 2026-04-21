@@ -283,6 +283,20 @@ function PoliticalFraming() {
         <PullQuote cite="Xinjiang Party Secretary Ma Xingrui, remarks reported by Reuters, 2024">
           The Sinicization of Islam is inevitable.
         </PullQuote>
+
+        <div className="figure policy-photo">
+          <img
+            src="uploads/maxingrui-xinjiang.webp"
+            alt="Officials seated around a conference table during a Xinjiang policy meeting."
+          />
+        </div>
+        <Caption>
+          Policy discourse is not produced through public debate but through
+          internal coordination among officials. Meetings such as this serve
+          as sites where categories, priorities, and acceptable forms of
+          religious expression are defined and transmitted downward into
+          governance practice.
+        </Caption>
       </div>
     </section>
   );
