@@ -526,7 +526,8 @@ section.sect {
 
 .country-profile-caption,
 .country-profile-followup {
-  max-width: 68%;
+  width: 66.666%;
+  max-width: none;
 }
 
 .country-profile-followup {
@@ -537,6 +538,7 @@ section.sect {
 @media (max-width: 900px) {
   .country-profile-caption,
   .country-profile-followup {
+    width: 100%;
     max-width: 100%;
   }
 
