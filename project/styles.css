@@ -479,6 +479,13 @@ section.sect {
 .figure.tall { aspect-ratio: 3/4; }
 .figure.wide { aspect-ratio: 16/9; }
 .figure.sq { aspect-ratio: 1/1; }
+.figure.economy-photo { aspect-ratio: 1500 / 1001; }
+.figure.economy-photo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
 
 .caption {
   font-family: var(--mono);

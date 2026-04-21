@@ -505,16 +505,17 @@ function Surveillance() {
             </div>
           </div>
           <div className="span-5">
-            <ArchivalPlaceholder
-              label="Checkpoint infrastructure · Kashgar perimeter"
-              detail="DROP-IN: DOCUMENTARY PHOTOGRAPH, LICENSED"
-              aspect="tall"
-            />
-            <Caption source="Human Rights Watch (2018a, 2019); Reuters (2021b, 2021c); OHCHR (2022).">
-              Xinjiang's urban environments are saturated with physical
-              monitoring: checkpoint gates, convenience police stations at
-              regular intervals, and cameras integrated with identification
-              systems.
+            <div className="figure economy-photo">
+              <img
+                src="uploads/cotton-xinjiang-page-6.webp"
+                alt="Cotton harvesting in a field in Xinjiang."
+              />
+            </div>
+            <Caption source="Agricultural production · Xinjiang cotton sector">
+              Cotton harvesting in Xinjiang. Investigations by international
+              organizations and media have linked parts of the region’s
+              agricultural and textile production to state-directed labor
+              transfer programs.
             </Caption>
           </div>
         </div>
